@@ -5,3 +5,26 @@ body{
     background-attachment: fixed;
     overflow-x: hidden;
 }
+@media only screen and (max-width: 1024px){
+    .body{
+      background-image: url("images/Frame\ 1\ \(5\).jpg");
+      width: 1024px;
+    }
+    .header{
+      position: fixed;
+    }
+    .head .Logo{
+      margin-left: -50px;
+    }
+    .head .menu{
+      margin-top: 20px;
+      margin-left: 120px;
+     }
+     .head .menu li{  
+      display: inline-flex;
+      padding: right 20px;
+      font-size:10px;
+      font-weight: bold;       
+      animation: slideTop1 .5s ease forwards;
+      animation-delay: calc(.3s * var(--i));
+  }
